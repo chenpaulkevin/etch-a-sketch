@@ -1,50 +1,63 @@
-.etch{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: violet;
-    border: 2.5em;
+.etch {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  border: 2.5em;
 }
-.controls{
-    background-color: blue;
-    height: 10em;
-    width: 60vh;
-    text-align:center;
+.controls {
+  background-color: blue;
+  height: 10em;
+  width: 60vh;
+  text-align: center;
 }
-.etch-body{
-    background-color: #d31010;
-    height: 90vh;
-    width: 65vw;
-    order: -1;
-    border-radius: 25px;
-    box-shadow: 15px 15px 35px 1px #353535c2,
-                inset 10px 10px 20px #ff8686c9,
-                inset -10px -10px 20px #aa0d0dce;
-                
+.etch-body {
+  background-color: #d31010;
+  height: 90vh;
+  width: 65vw;
+  order: -1;
+  border-radius: 25px;
+  box-shadow: 15px 15px 35px 1px #353535c2, inset 10px 10px 20px #ff8686c9,
+    inset 15px 15px 25px #ff8686e0, inset -10px -10px 20px #aa0d0dce,
+    inset -15px -15px 20px #aa0d0dbb;
 }
-.etch>*{
-    margin: 2.5em;
+.etch-screen {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.button-group{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.etch-grid {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 80%;
+  width: 80%;
+  box-shadow: 0px 0px 10px 4px #ff8484ab,
+            inset 0px 0px 10px 4px #444444;
 }
-.etch-controls{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 100%;
-    height: 95%;
+.etch > * {
+  margin: 2.5em;
 }
-.circles{
-    height: 150px;
-    width: 150px;
-    background-color: #ffdcb3;
-    border-radius: 50%;
-    box-shadow: 10px 10px 15px 1px #313131c4,
-                inset 5px 10px 5px #fde6cc,
-                inset -5px -10px 4px #31313154;
-
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.etch-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 11vh;
+}
+.circles {
+  margin: 0px 120px;
+  height: 140px;
+  width: 140px;
+  background-color: #ffdcb3;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px 1px #6b000098, inset 5px 8px 4px #ffead2,
+    inset -5px -8px 4px #31313154;
 }
